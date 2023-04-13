@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+
+    <style>
+        .main {
+            height: 40vh;
+            width: 60rem;
+            border: 1px solid black;
+            padding: 40px;
+        }
+
+        .content{
+            font-size: 25px;
+
+        }
+
+
+        @media only screen and (max-width: 320px){
+
+        }
+
+
+        @media only screen and (min-width: 321px ) and (max-width: 480px) {
+
+            .main{
+                width: 10rem;
+                padding: 20px;
+                height: 60vh;
+            }
+
+            .content{
+                font-size: 18px;
+            }
+
+
+        }
+
+        @media only screen and (min-width: 481px) and (max-width: 768px) {
+
+            .main{
+                width: 29rem;
+            }
+
+            .content{
+                font-size: 20px;
+            }
+
+        }
+
+        @media only screen and (min-width: 769px ) and (max-width: 1024px){
+
+
+
+        }
+
+        @media only screen and (min-width: 1024px) {
+
+            
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="main">
+        <section>
+            <h1>This is the way Media Queries work!</h1>
+            <p class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta commodi perferendis id, sed ratione
+                suscipit beatae alias fugiat voluptatibus molestias eos ipsum repellendus accusantium earum distinctio
+                facere veritatis animi dolorem.</p>
+
+        </section>
+
+
+    </div>
+
+
+
+</body>
+
+</html>
